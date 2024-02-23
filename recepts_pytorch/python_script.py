@@ -16,7 +16,7 @@ from torch import optim
 from torch.optim import Optimizer
 np.random.seed(42)
 torch.manual_seed(42)
-df = pd.read_csv('d2.csv')
+df = pd.read_csv('recepts.csv')
 df.head()
 df.isna().sum()
 print(df.dtypes)
