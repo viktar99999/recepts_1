@@ -126,6 +126,7 @@ command python3.8
 command python3.9
 command python3.10
 command python3.11
+command python3.12
 import anyio
 import argon2 # argon2-cffi
 import argon2 # argon2-cffi-bindings
